@@ -101,4 +101,4 @@ def exit_app():
     return jsonify({"message": "Application closed."}), 200
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=3000)
